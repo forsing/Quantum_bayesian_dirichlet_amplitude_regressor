@@ -14,9 +14,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -306,17 +306,17 @@ Posebnost: Kvantno preklapanje dokaza |<psi_t|psi_tau>|^2 na simulatoru + Bajeso
 CSV: loto7_4718_k90.csv
 Validacija NLL (alpha=0.5, sharp=2.0): 20.4786
 Test NLL: 20.4078
-NEXT: [1, 8, 13, 23, 29, 33, 39]
+NEXT: [1, x, 13, y, 29, z, 39]
 
 CSV: loto7_4718_k90_loto_2981.csv
 Validacija NLL (alpha=0.5, sharp=2.0): 20.4745
 Test NLL: 20.5827
-NEXT: [1, 8, 15, 21, 29, 35, 39]
+NEXT: [1, x, 15, y, 29, z, 39]
 
 CSV: loto7_4718_k90_loto_plus_1737.csv
 Validacija NLL (alpha=0.5, sharp=2.0): 20.2147
 Test NLL: 20.3643
-NEXT: [1, 8, 12, 23, 27, 34, 39]
+NEXT: [1, x, 12, y, 27, z, 39]
 """
 
 
